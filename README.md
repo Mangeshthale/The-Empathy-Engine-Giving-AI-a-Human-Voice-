@@ -2,8 +2,6 @@
 
 **Giving AI a Human Voice through Dynamic Prosody Modulation.**
 
-![UI Showcase](https://via.placeholder.com/1000x500.png?text=UI+Screenshot+Goes+Here)
-
 ## 📖 Vision & Context
 
 In the world of AI-driven interactions, standard Text-to-Speech (TTS) systems are highly functional but emotionally robotic. They lack the prosody, emotional range, and subtle vocal cues necessary to [...]
