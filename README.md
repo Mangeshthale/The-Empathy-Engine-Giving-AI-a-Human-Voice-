@@ -4,11 +4,21 @@
 
 🚀 **[Try the Live Demo Here!](https://empathyengine.streamlit.app/)** 🚀
 
+🖼️ [Demo Preview - App Screenshot](ADD_YOUR_IMAGE_LINK_HERE)
+
 ## 📖 Vision & Context
 
 In the world of AI-driven interactions, standard Text-to-Speech (TTS) systems are highly functional but emotionally robotic. They lack the prosody, emotional range, and subtle vocal cues necessary to build true user rapport. 
 
 **The Empathy Engine** bridges this "uncanny valley." It is a dynamic vocal modulation service that analyzes the emotional subtext of an input string and programmatically alters the rate, pitch, and amplitude of a neural TTS engine to achieve genuine emotional resonance.
+
+## 🛠️ Tech Stack
+
+- Python 3.10+
+- Hugging Face Transformers (RoBERTa)
+- Microsoft Edge-TTS
+- Streamlit
+- Altair
 
 ## ✨ Key Features
 
@@ -28,7 +38,7 @@ This project is built using Python 3.10+ and utilizes Hugging Face Transformers 
 
 ```bash
 git clone [https://github.com/Mangeshthale/The-Empathy-Engine-Giving-AI-a-Human-Voice-](https://github.com/Mangeshthale/The-Empathy-Engine-Giving-AI-a-Human-Voice-)
-cd Empathy_engine
+cd The-Empathy-Engine-Giving-AI-a-Human-Voice-
 ```
 
 ### 2. Environment Configuration
@@ -116,3 +126,20 @@ Modern neural voices (like `en-IN-NeerjaNeural`) are trained on professionally m
 ### Voice Localization
 
 The engine utilizes `en-IN-NeerjaNeural`, a high-fidelity Indian-English female voice. This was a deliberate design choice to provide a localized, highly relatable, and deeply empathetic UX for users within the targeted demographic, proving that the engine can adapt to global accents while maintaining emotional integrity.
+
+## 🚧 Future Work
+
+- Multi-language emotion detection
+- Real-time voice streaming
+- Fine-tuned emotion models
+- User-controlled emotion sliders
+
+## 🤝 Contributing
+
+Pull requests are welcome. For major changes, please open an issue first.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
