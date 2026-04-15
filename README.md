@@ -4,8 +4,6 @@
 
 🚀 **[Try the Live Demo Here!](https://empathyengine.streamlit.app/)** 🚀
 
-🖼️ [Demo Preview - App Screenshot](ADD_YOUR_IMAGE_LINK_HERE)
-
 ## 📖 Vision & Context
 
 In the world of AI-driven interactions, standard Text-to-Speech (TTS) systems are highly functional but emotionally robotic. They lack the prosody, emotional range, and subtle vocal cues necessary to build true user rapport. 
