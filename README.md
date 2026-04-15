@@ -68,7 +68,7 @@ pip install -r requirements.txt
 
 Create a `.env` file in the root directory to store your Hugging Face token securely. This prevents API rate-limiting during the NLP inference stage.
 
-# .env
+.env
 HF_TOKEN=your_huggingface_token_here
 
 ### 5. Run the Engine
