@@ -24,3 +24,16 @@ This project is built using Python 3.8+ and utilizes Hugging Face Transformers a
 ```bash
 git clone <your-github-repo-url>
 cd Empathy_engine
+```
+2. Environment Configuration
+Ensure your project structure matches the following architecture:
+Empathy_engine/
+├── .env
+├── .gitignore
+├── app.py
+├── requirements.txt
+└── core/
+    ├── __init__.py
+    ├── config.py
+    ├── emotion_analyzer.py
+    └── voice_synthesizer.py
