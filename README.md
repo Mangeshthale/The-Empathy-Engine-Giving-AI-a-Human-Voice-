@@ -2,6 +2,8 @@
 
 **Giving AI a Human Voice through Dynamic Prosody Modulation.**
 
+🚀 **[Try the Live Demo Here!](https://empathyengine.streamlit.app/)** 🚀
+
 ## 📖 Vision & Context
 
 In the world of AI-driven interactions, standard Text-to-Speech (TTS) systems are highly functional but emotionally robotic. They lack the prosody, emotional range, and subtle vocal cues necessary to build true user rapport. 
@@ -25,7 +27,7 @@ This project is built using Python 3.10+ and utilizes Hugging Face Transformers 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Mangeshthale/The-Empathy-Engine-Giving-AI-a-Human-Voice-
+git clone [https://github.com/Mangeshthale/The-Empathy-Engine-Giving-AI-a-Human-Voice-](https://github.com/Mangeshthale/The-Empathy-Engine-Giving-AI-a-Human-Voice-)
 cd Empathy_engine
 ```
 
@@ -66,10 +68,8 @@ pip install -r requirements.txt
 
 Create a `.env` file in the root directory to store your Hugging Face token securely. This prevents API rate-limiting during the NLP inference stage.
 
-```bash
 # .env
 HF_TOKEN=your_huggingface_token_here
-```
 
 ### 5. Run the Engine
 
