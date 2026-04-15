@@ -35,8 +35,8 @@ This project is built using Python 3.10+ and utilizes Hugging Face Transformers 
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/Mangeshthale/The-Empathy-Engine-Giving-AI-a-Human-Voice-](https://github.com/Mangeshthale/The-Empathy-Engine-Giving-AI-a-Human-Voice-)
-cd The-Empathy-Engine-Giving-AI-a-Human-Voice-
+git clone [https://github.com/Mangeshthale/The-Empathy-Engine](https://github.com/Mangeshthale/The-Empathy-Engine)
+cd The-Empathy-Engine
 ```
 
 ### 2. Environment Configuration
