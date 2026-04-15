@@ -4,13 +4,13 @@
 
 ## 📖 Vision & Context
 
-In the world of AI-driven interactions, standard Text-to-Speech (TTS) systems are highly functional but emotionally robotic. They lack the prosody, emotional range, and subtle vocal cues necessary to [...]
+In the world of AI-driven interactions, standard Text-to-Speech (TTS) systems are highly functional but emotionally robotic. They lack the prosody, emotional range, and subtle vocal cues necessary to build true user rapport. 
 
-**The Empathy Engine** bridges this "uncanny valley." It is a dynamic vocal modulation service that analyzes the emotional subtext of an input string and programmatically alters the rate, pitch, and a[...]
+**The Empathy Engine** bridges this "uncanny valley." It is a dynamic vocal modulation service that analyzes the emotional subtext of an input string and programmatically alters the rate, pitch, and amplitude of a neural TTS engine to achieve genuine emotional resonance.
 
 ## ✨ Key Features
 
-- **Granular Emotion Detection:** Bypasses basic positive/negative sentiment analysis by utilizing a pre-trained RoBERTa NLP model to classify text into 7 nuanced emotional states (Joy, Sadness, Anger[...]
+- **Granular Emotion Detection:** Bypasses basic positive/negative sentiment analysis by utilizing a pre-trained RoBERTa NLP model to classify text into 7 nuanced emotional states (Joy, Sadness, Anger, Fear, Surprise, Disgust, Neutral).
 - **Dynamic Prosody Mapping:** Programmatically alters the `Rate`, `Pitch`, and `Volume` of the synthesized speech based on a scientifically tuned emotional matrix.
 - **Identity Anchoring:** Implements strict pitch-variance constraints to prevent "Formant Shifting," ensuring the AI maintains a consistent biometric identity across all emotional states.
 - **Neural Normalization Bypass:** Utilizes extreme amplitude overrides to successfully bypass the internal audio compressors inherent in modern neural TTS engines.
@@ -97,15 +97,15 @@ Mapping human emotion to numerical API parameters is a complex challenge. The lo
 
 #### 1. Solving "Identity Loss" (Formant Shifting)
 
-When aggressively modifying the pitch parameter in neural TTS engines, the AI alters the perceived size of the simulated vocal tract. This causes the voice to sound like a completely different person [...]
+When aggressively modifying the pitch parameter in neural TTS engines, the AI alters the perceived size of the simulated vocal tract. This causes the voice to sound like a completely different person (e.g., a +20Hz shift sounds like a child, a -20Hz shift sounds like a giant)
 
-**The Solution:** The `EMOTION_MAP` heavily restricts pitch variance to a safe +8Hz / -8Hz band. This acts as an **"Identity Anchor,"** ensuring the speaker remains recognizable across all emotions. Emotional w[...]
+**The Solution:** The `EMOTION_MAP` heavily restricts pitch variance to a safe +8Hz / -8Hz band. This acts as an "Identity Anchor," ensuring the speaker remains recognizable across all emotions. Emotional weight is instead conveyed via aggressive Rate and Volume manipulation.
 
 #### 2. Bypassing Neural Gain Control
 
 Modern neural voices (like `en-IN-NeerjaNeural`) are trained on professionally mastered audio and feature internal compressors that normalize volume to prevent audio peaking.
 
-**The Solution:** To force the AI to genuinely whisper in "Fear" or shout in "Anger," the engine utilizes extreme volume parameters (e.g., +75% for Anger, -60% for Fear). These extreme values successfully[...]
+**The Solution:** To force the AI to genuinely whisper in "Fear" or shout in "Anger," the engine utilizes extreme volume parameters (e.g., +75% for Anger, -60% for Fear). These extreme values successfully override the engine's Automatic Gain Control.
 
 ### Sample Matrix Examples
 
@@ -114,4 +114,4 @@ Modern neural voices (like `en-IN-NeerjaNeural`) are trained on professionally m
 
 ### Voice Localization
 
-The engine utilizes `en-IN-NeerjaNeural`, a high-fidelity Indian-English female voice. This was a deliberate design choice to provide a localized, highly relatable, and deeply empathetic UX for users wi[...]
+The engine utilizes `en-IN-NeerjaNeural`, a high-fidelity Indian-English female voice. This was a deliberate design choice to provide a localized, highly relatable, and deeply empathetic UX for users within the targeted demographic, proving that the engine can adapt to global accents while maintaining emotional integrity.
