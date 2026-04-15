@@ -1,0 +1,9 @@
+streamlit
+transformers
+torch
+torchvision
+edge-tts
+plotly
+pandas
+python-dotenv
+altair

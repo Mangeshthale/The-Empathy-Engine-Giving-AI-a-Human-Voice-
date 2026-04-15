@@ -1,0 +1,6 @@
+# .gitignore
+DarvixVenv/
+__pycache__/
+.env
+.streamlit/secrets.toml
+*.mp3
