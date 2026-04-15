@@ -20,12 +20,12 @@ In the world of AI-driven interactions, standard Text-to-Speech (TTS) systems ar
 
 ## ⚙️ Environment Setup & Installation
 
-This project is built using Python 3.8+ and utilizes Hugging Face Transformers and Microsoft Edge-TTS.
+This project is built using Python 3.10+ and utilizes Hugging Face Transformers and Microsoft Edge-TTS.
 
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-github-repo-url>
+git clone https://github.com/Mangeshthale/The-Empathy-Engine-Giving-AI-a-Human-Voice-
 cd Empathy_engine
 ```
 
